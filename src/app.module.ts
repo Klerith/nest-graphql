@@ -92,7 +92,7 @@ import { ListItemModule } from './list-item/list-item.module';
 export class AppModule {
 
   constructor() {
-
+    console.log('Variables de entorno');
     console.log("STATE",  process.env.STATE );
     console.log("host",  process.env.DB_HOST );
     console.log("port",  +process.env.DB_PORT );
