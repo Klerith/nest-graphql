@@ -2,6 +2,7 @@
 /postgres
 
 .env
+.env.prod
 
 
 # compiled output

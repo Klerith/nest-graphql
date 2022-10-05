@@ -48,9 +48,9 @@ export class SeedService {
 
     async executeSeed() {
         
-        if ( this.isProd ) {
-            throw new UnauthorizedException('We cannot run SEED on Prod');
-        }
+        // if ( this.isProd ) {
+        //     throw new UnauthorizedException('We cannot run SEED on Prod');
+        // }
 
         // Limpiar la base de datos BORRAR TODO
         await this.deleteDatabase();
