@@ -21,7 +21,7 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    image: nest-graphql
+    image: klerith/nest-graphql-prod
     container_name: AnylistApp
     restart: always # reiniciar el contenedor si se detiene
     ports:
